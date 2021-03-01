@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+label{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+.main{
+    background-color: #fff;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(182, 217, 231);
+
+}
+.contenedor-formulario{
+    background-color: #fff;
+    padding: 10rem;
+    border-radius: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.contenedor-formulario__titulo{
+
+}
+.form{
+
+}
+.form-input{
+    padding: .5rem 0;
+}
+.form-input label{
+    display:block;
+}
+.form-input input[type="email"],
+.form-input input[type="password"]{
+    width: 20rem;
+    height: 3rem;
+    padding:1rem 1rem;
+    border:none;
+    outline:none;
+    background-color: rgb(218, 231, 236);
+    border-radius: 1rem;
+
+}
+.form-input:last-of-type{
+    text-align: center;
+}
+.form-input input[type="submit"]{
+    border:none;
+    outline:none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 73, 102);
+    color:#fff;
+}
+.form-input input[type="submit"]:hover{
+    opacity: 70%;
+}
+.alertas{
+    margin-top:1rem;
+    background-color: rgb(226, 19, 19);
+    color:white;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+.alertas-parrafo{
+    padding:1rem;
+}
